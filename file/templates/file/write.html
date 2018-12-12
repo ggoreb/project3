@@ -1,0 +1,10 @@
+
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    제목 : <input type="text" name="title">
+    <br>
+    파일 : <input type="file" name="file">
+    <br>
+    <input type="submit" value="글쓰기">
+</form>
